@@ -119,7 +119,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
-    vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
+    vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/google/seed/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/google/seed/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
