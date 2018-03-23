@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/google/seed/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/google/seed/proprietary/vendor/lib/hw/camera.msm8916.so:system/vendor/lib/hw/camera.msm8916.so \
-    vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/google/seed/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
@@ -72,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/google/seed/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/google/seed/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/google/seed/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -178,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/google/seed/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/google/seed/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/google/seed/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/google/seed/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/google/seed/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
