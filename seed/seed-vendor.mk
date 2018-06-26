@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/google/seed/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/google/seed/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/google/seed/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/google/seed/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
