@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,14 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/google/seed/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/google/seed/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/google/seed/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
-    vendor/google/seed/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-    vendor/google/seed/proprietary/vendor/lib/hw/camera.msm8916.so:system/vendor/lib/hw/camera.msm8916.so \
-    vendor/google/seed/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/google/seed/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/google/seed/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/google/seed/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/google/seed/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
+    vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
+    vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
+    vendor/google/seed/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/google/seed/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/google/seed/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/google/seed/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -66,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/google/seed/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/google/seed/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/google/seed/proprietary/vendor/lib/hw/camera.msm8916.so:system/vendor/lib/hw/camera.msm8916.so \
     vendor/google/seed/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/google/seed/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/google/seed/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -77,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/google/seed/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/google/seed/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/google/seed/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/google/seed/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/google/seed/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/google/seed/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -119,8 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
-    vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
-    vendor/google/seed/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
+    vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/google/seed/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/google/seed/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -146,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/google/seed/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -164,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/google/seed/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_ov2680_pc0fb0003b.so:system/vendor/lib/libmmcamera_ov2680_pc0fb0003b.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k3m2_olqba20.so:system/vendor/lib/libmmcamera_s5k3m2_olqba20.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so:system/vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so \
@@ -176,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/google/seed/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/google/seed/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/google/seed/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/google/seed/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/google/seed/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
@@ -191,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/google/seed/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/google/seed/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/google/seed/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/google/seed/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/google/seed/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
@@ -207,7 +208,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/google/seed/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/google/seed/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/seed/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/seed/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/google/seed/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -219,4 +223,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     qcrilmsgtunnel \
     TimeService \
-    shutdownlistener
+    shutdownlistener \
+    qcnvitems \
+    qcrilhook
